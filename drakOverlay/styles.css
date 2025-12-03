@@ -1,12 +1,17 @@
 @import url(/global.css);
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .overlay-card {
     position: relative;
     overflow: hidden;
 }
 
 .overlay-card img {
-    width: 100%;
     display: block;
 }
 
@@ -21,6 +26,7 @@
   opacity: 0;
   transition: opacity .3s ease;
   font-size: 1.2rem;
+  width: 300px;
 }
 
 .overlay-card:hover .overlay-text {
