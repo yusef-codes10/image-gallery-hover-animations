@@ -7,10 +7,6 @@
 }
 
 .zoom-card img {
-    width: 300px;
-    height: 300px;
-    border-radius: 2rem;
-    cursor: pointer;
     transition: transform .35s ease;
 }
 
