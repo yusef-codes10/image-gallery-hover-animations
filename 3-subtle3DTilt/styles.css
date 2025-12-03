@@ -13,3 +13,5 @@
 .tilt-card:hover img {
   transform: rotateX(4deg) rotateY(4deg);
 }
+
+/* TODO Revise animation (transform) in css*/ 
