@@ -3,3 +3,13 @@
 .tilt-card {
     perspective: 800px;
 }
+
+.tilt-card img {
+  /* width: 100%; */
+  transform-style: preserve-3d;
+  transition: transform .2s ease;
+}
+
+.tilt-card:hover img {
+  transform: rotateX(4deg) rotateY(4deg);
+}
