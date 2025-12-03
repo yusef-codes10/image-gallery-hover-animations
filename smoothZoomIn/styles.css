@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.zoom-card img {
+    width: 100%;
+    transition: transform .35s ease;
+}
+
+.zoom-card img:hover {
+  transform: scale(1.08);
+}
