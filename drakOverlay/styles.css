@@ -1,1 +1,11 @@
 @import url(/global.css);
+
+.overlay-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-card img {
+    width: 100%;
+    display: block;
+}
