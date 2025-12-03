@@ -7,11 +7,14 @@
 .zoom-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .zoom-card img {
     width: 300px;
     height: 300px;
+    border-radius: 2rem;
+    cursor: pointer;
     transition: transform .35s ease;
 }
 
