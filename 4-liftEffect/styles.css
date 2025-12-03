@@ -1,6 +1,18 @@
 @import url(/global.css);
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lift-card {
   transition: transform .3s ease, box-shadow .3s ease;
   display: inline-block;
+}
+
+.lift-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
